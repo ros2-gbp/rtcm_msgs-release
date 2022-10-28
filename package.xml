@@ -4,7 +4,7 @@
   schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>rtcm_msgs</name>
-  <version>1.1.0</version>
+  <version>1.1.2</version>
   <description>The rtcm_msgs package contains messages related to data in the RTCM format.</description>
   <maintainer email="tilk@tilk.eu">Marek Materzok</maintainer>
   <license>BSD</license>
@@ -15,11 +15,15 @@
   <buildtool_depend condition="$ROS_VERSION == 2">rosidl_default_generators</buildtool_depend>
 
   <build_depend condition="$ROS_VERSION == 1">message_generation</build_depend>
-  <build_depend>ros_environment</build_depend>
+  <build_depend condition="$ROS_VERSION == 1">ros_environment</build_depend>
+  <build_depend condition="$ROS_VERSION == 2">builtin_interfaces</build_depend>
 
   <depend>std_msgs</depend>
 
   <exec_depend condition="$ROS_VERSION == 1">message_runtime</exec_depend>
+  <exec_depend condition="$ROS_VERSION == 2">rosidl_default_runtime</exec_depend>
+
+  <test_depend condition="$ROS_VERSION == 2">ament_lint_common</test_depend>
 
   <member_of_group condition="$ROS_VERSION == 2">rosidl_interface_packages</member_of_group>
 
