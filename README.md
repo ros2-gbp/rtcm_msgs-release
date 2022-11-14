@@ -1,3 +1,26 @@
+## rtcm_msgs (melodic) - 1.1.6-1
+
+The packages in the `rtcm_msgs` repository were released into the `melodic` distro by running `/usr/bin/bloom-release rtcm_msgs --rosdistro melodic -y --unsafe` on `Mon, 14 Nov 2022 11:39:10 -0000`
+
+The `rtcm_msgs` package was released.
+
+Version of package(s) in repository `rtcm_msgs`:
+
+- upstream repository: https://github.com/tilk/rtcm_msgs.git
+- release repository: https://github.com/nobleo/rtcm_msgs-release.git
+- rosdistro version: `1.1.4-1`
+- old version: `1.1.4-1`
+- new version: `1.1.6-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.1`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## rtcm_msgs (rolling) - 1.1.4-1
 
 The packages in the `rtcm_msgs` repository were released into the `rolling` distro by running `/usr/bin/bloom-release rtcm_msgs --rosdistro rolling -y --unsafe` on `Tue, 01 Nov 2022 12:04:06 -0000`
