@@ -1,1 +1,1 @@
-{"base": "5100565", "parent": "debian/rolling/rtcm_msgs", "previous": "4714b5e", "trim": "", "trimbase": ""}
+{"base": "51a6847be6c6", "parent": "debian/kilted/rtcm_msgs", "previous": "f5ed5858ae6a", "trim": "", "trimbase": ""}
